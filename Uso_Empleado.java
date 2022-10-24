@@ -10,7 +10,7 @@ public class Uso_Empleado {
 		misEmpleados[1] = new Empleado("Andrea Valentina", 95000, 1998, 04, 26);
 		misEmpleados[2] = new Empleado("Andrés Gonzáles", 105000, 2002, 01, 07);
 		
-		for(empleado empl : misEmpleados) {
+		for(Empleado empl : misEmpleados) {
 			System.out.println("El nombre es: " + empl.dameNombre() + ", su salario "
 			+ "es de: " + empl.dameSalario() + ", y su fecha de alta es: "
 			+ empl.dameFechaAlta() + ".");
